@@ -1,23 +1,6 @@
-# 🍽️ Aura Bistro | Seat Reservation & Smart Menu Booking System
+# 🍽️ Chatori Gali | Seat Reservation & Smart Menu Booking System
 
 A premium full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that allows customers to reserve seats/tables, check peak busy hours, pre-order menu items with a 60% advance deposit, and helps restaurant/kitchen staff manage food preparation timelines efficiently.
-
----
-
-## 💼 Resume Summary (Ready-to-Use)
-
-> **Project:** Aura Bistro – AI-Powered Smart Dining Concierge & Kitchen Workflow System  
-> **Tech Stack:** **RAG Pipelines**, **Vector Embeddings**, **Model Context Protocol (MCP)**, **React.js**, **Node.js**, **Express.js**, **MongoDB**, **Razorpay**, **Server-Sent Events (SSE)**, **REST APIs**
-
-### Option 1: Category Labeled (Modern & Highlighted)
-* **Full-Stack Reservation & Financial Engine:** Engineered an end-to-end smart dining platform (**React.js**, **Node.js**, **Express.js**, **MongoDB**) featuring dynamic hourly table occupancy algorithms, interactive seating selection, and automated 60% advance deposit billing via **Razorpay** (with HMAC-SHA256 signature verification) to eliminate table no-shows and synchronize kitchen prep with diner arrivals.
-* **Semantic RAG & Vector Retrieval Pipeline:** Architected a high-precision **RAG (Retrieval-Augmented Generation) pipeline** using **vector embeddings** and cosine similarity search over culinary catalogs, combining hard metadata filtering (allergens, macros, calories) with contextual prompt injection into **LLMs** to deliver hallucination-free dietary recommendations and instant pre-order action chips.
-* **Real-Time Streaming Concierge & Kitchen Operations:** Built a real-time conversational AI concierge with **Model Context Protocol (MCP)** tool execution and sub-second token streaming via **Server-Sent Events (SSE)**, integrated alongside a role-based **Kitchen Kanban dispatch board** (`Queued` ➔ `Cooking` ➔ `Ready`) and administrative analytics dashboard that slashed customer wait times by 45%.
-
-### Option 2: Clean ATS Format (Traditional 1-Page Resume)
-* Engineered an end-to-end smart dining platform (**React.js**, **Node.js**, **Express.js**, **MongoDB**) featuring dynamic hourly table occupancy algorithms, interactive seating selection, and automated 60% advance deposit billing via **Razorpay** (with HMAC-SHA256 signature verification) to eliminate table no-shows and synchronize kitchen prep with diner arrivals.
-* Architected a high-precision **RAG (Retrieval-Augmented Generation) pipeline** using **vector embeddings** and cosine similarity search over culinary catalogs, combining hard metadata filtering (allergens, macros, calories) with contextual prompt injection into **LLMs** to deliver hallucination-free dietary recommendations and instant pre-order action chips.
-* Built a real-time conversational AI concierge with **Model Context Protocol (MCP)** tool execution and sub-second token streaming via **Server-Sent Events (SSE)**, integrated alongside a role-based **Kitchen Kanban dispatch board** (`Queued` ➔ `Cooking` ➔ `Ready`) and administrative analytics dashboard that slashed customer wait times by 45%.
 
 ---
 
@@ -147,11 +130,6 @@ When the recipient receives the zip file, they must extract it and follow the **
 
 2. **Configure Environment Variables**:
    Create a `.env` file in the `backend/` directory:
-   ```env
-   PORT=5000
-   MONGO_URI=mongodb://localhost:27017/hotel-reservation
-   JWT_SECRET=supersecretjwtkey123!@#
-   ```
 
 3. **Seed Mock Database**:
    Populates users, sample menu cards, and mock reservation history to visualize data immediately:
